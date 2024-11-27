@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+
+}
+.navbar {
+    height: 100px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+    
+
+}
+.nav-logo{
+    height: 80px;
+    width: 100px;
+
+}
+.logo{
+    background-image: url("amazonlogo.jpg");
+    background-size: cover;
+    height: 90px;
+    width: 100%;
+
+}
+.border{
+    border: 2px auto transparent;
+    
+}
+.border:hover{
+    border: 3px solid rgba(221, 204, 20, 0.232);
+
+}
+/* styling the address text for the website (box 2)*/
+.add-first{
+    color: #cccccc;
+    margin-left: 15px;
+    
+    
+}
+.add-secound{
+font-size: 1.5rem;    
+margin-left: 15px;
+
+}
+.address-icon{
+    padding: auto;
+    margin: auto;
+    align-items: center;
+    
+}
+/* styling box 3  (for searching of items) */
+.nav-search{
+    align-items: center;
+    display: flex;
+    margin-left: 25px;
+   border-radius: 3px;
+   background-color: orangered;
+    height: 40px;
+    width: 500px;
+    justify-content: space-evenly;
+
+}
+ .search-select{
+    background-color: #f3f3ff;
+    width: 40px;
+    text-align: center;
+    border-radius: 4px;
+
+ }
+ 
+ .search-input{
+    width: 100%;
+    font-size: 1rem;
+ }
+ .nav-search:hover{
+    border: 2px solid aqua;
+ }
+ .search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: orangered;
+ }
+ /* styling for box 4 of navbar*/
+ span{
+    font-size: 11px;
+
+ }
+ nav-secound{
+    font-size: 0.85rem;
+    font-weight: 700;
+ }
+ /* box 6(add to card section in navbar) */
+ .nav-card i{
+    font-size: 35px;
+    
+
+ }
+ .nav-card{
+    font-size: 1.5rem;
+    display: flex;
+ }
+ /* styling for panel */
+ .panel{
+    height: 40px;
+    background-color: grey;
+    display: flex;
+    color: #f3f3ff;
+    align-items: center;
+    justify-content: space-evenly;
+ }
+ .panel-opt p{
+    display: inline;
+    margin-left: 18px;
+ }
+ .panel-opt{
+    width: 70%;
+    font-size: 19px;
+ }
+ .panel-deals{
+    font-size: 25px;
+    font-weight: 700;
+ }
+ /* styling of hero section of website */
+ .hero-section{
+   background-image: url(heropanel.jpg);
+   background-size: cover;
+   height: 400px;
+   display: flex;
+   justify-content: center;
+   align-items: flex-end;
+
+}
+.hero-msg{
+    background-color: white;
+    color: #0f1111;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+
+}
+/* styling of the shop-section */
+.box{
+    height: 500px;
+    border: 2px solid black;
+    width: 23%;
+    background-color: #cccccc;
+    margin-top: 5px;
+    background-size: cover;
+}
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lightsalmon;
+    padding: 20px 0px 15px;
+    flex-wrap: wrap;
+}
+.box-img{
+    height: 400px;
+    width: 300px;
+    
+}
+.box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.box-content p{
+    color: blue;
+
+}
+/* styling for footer region */
+
+
+.foot-panel1{
+font-size: 25px;
+text-align: center;
+background-color: black;
+color: #cccccc;
+height: 30px;
+display: flex;
+justify-content: center;
+}
+.foot-panel2{
+    background-color:grey;
+    color: #cccccc;
+    height: 400px;
+    display: flex;
+    font-size: 18px;
+    justify-content: space-evenly;
+    margin-top: auto;
+
+}
+ul a{
+    display: block;
+}
+  
+
+
